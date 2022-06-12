@@ -1,0 +1,169 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Navigate to HeroKuApp",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10538411000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on home page of HeroKUAPP",
+            "match": {
+              "location": "stepDefinations.HeroKUAppStepDefinations.user_is_on_home_page_of_HeroKUAPP()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 86030700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "\"Available Examples\" Page is Displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Available Examples\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinations.HeroKUAppStepDefinations.available_Examples_Page_is_Displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-12T09:11:10.519Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2015000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.HooksStepDefinations.beforeHook(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify the child window text and Parent winow text",
+        "description": "",
+        "id": "verify-various-scenarios-on-herokuapp-page;verify-the-child-window-text-and-parent-winow-text",
+        "after": [
+          {
+            "result": {
+              "duration": 380322500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.HooksStepDefinations.afterHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 443891600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigate to \"Multiple Windows\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Multiple Windows\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinations.HeroKUAppStepDefinations.user_navigate_to_Multiple_Windows_Page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 109998500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on \"Click Here\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Click Here\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinations.HeroKUAppStepDefinations.click_on_Click_Here(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23004100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "New Child window opened",
+            "match": {
+              "location": "stepDefinations.HeroKUAppStepDefinations.new_Child_window_opened()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 285152700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify the Text \"New Window\" at Child Window",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"New Window\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinations.HeroKUAppStepDefinations.verify_the_Text_at_Child_Window(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74006800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Switch to Main window and Verify \"Opening a new window\" Text",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Opening a new window\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinations.HeroKUAppStepDefinations.switch_to_Main_window_and_Verify_Text(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Verify Various Scenarios on HeroKUAPP page",
+    "description": "",
+    "id": "verify-various-scenarios-on-herokuapp-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/HeroKUApp/Features/HeroKuApp.feature",
+    "tags": []
+  }
+]
