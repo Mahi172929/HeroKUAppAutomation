@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10538411000,
+              "duration": 6617938600,
               "status": "passed"
             },
             "line": 3,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 86030700,
+              "duration": 82012100,
               "status": "passed"
             },
             "line": 4,
@@ -42,11 +42,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-12T09:11:10.519Z",
+        "start_timestamp": "2022-06-28T18:35:50.908Z",
         "before": [
           {
             "result": {
-              "duration": 2015000,
+              "duration": 2000700,
               "status": "passed"
             },
             "match": {
@@ -54,14 +54,14 @@
             }
           }
         ],
-        "line": 5,
-        "name": "Verify the child window text and Parent winow text",
+        "line": 17,
+        "name": "Verify Data table functionality",
         "description": "",
-        "id": "verify-various-scenarios-on-herokuapp-page;verify-the-child-window-text-and-parent-winow-text",
+        "id": "verify-various-scenarios-on-herokuapp-page;verify-data-table-functionality",
         "after": [
           {
             "result": {
-              "duration": 380322500,
+              "duration": 361559100,
               "status": "passed"
             },
             "match": {
@@ -74,15 +74,15 @@
         "steps": [
           {
             "result": {
-              "duration": 443891600,
+              "duration": 626302800,
               "status": "passed"
             },
-            "line": 6,
-            "name": "User navigate to \"Multiple Windows\" Page",
+            "line": 18,
+            "name": "User navigate to \"Sortable Data Tables\" Page",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Multiple Windows\"",
+                  "val": "\"Sortable Data Tables\"",
                   "offset": 17
                 }
               ],
@@ -92,69 +92,72 @@
           },
           {
             "result": {
-              "duration": 109998500,
+              "duration": 48012600,
               "status": "passed"
             },
-            "line": 7,
-            "name": "Click on \"Click Here\"",
+            "line": 19,
+            "name": "user is able to see the \"Data Tables\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Click Here\"",
-                  "offset": 9
+                  "val": "\"Data Tables\"",
+                  "offset": 24
                 }
               ],
-              "location": "stepDefinations.HeroKUAppStepDefinations.click_on_Click_Here(java.lang.String)"
+              "location": "stepDefinations.HeroKUAppStepDefinations.user_is_able_to_see_the_data_table(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 23004100,
+              "duration": 204924700,
               "status": "passed"
             },
-            "line": 8,
-            "name": "New Child window opened",
+            "line": 20,
+            "name": "Verify the data table functionalities",
             "match": {
-              "location": "stepDefinations.HeroKUAppStepDefinations.new_Child_window_opened()"
+              "location": "stepDefinations.HeroKUAppStepDefinations.verify_the_data_table_functionalities()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 285152700,
+              "duration": 991966100,
               "status": "passed"
             },
-            "line": 9,
-            "name": "Verify the Text \"New Window\" at Child Window",
+            "line": 21,
+            "name": "Verify the a row with \"Smith\" , \"John\", \"jsmith@gmail.com\t\",\"$50.00\t\", \"http://www.jsmith.com\t\" exists on the table",
             "match": {
               "arguments": [
                 {
-                  "val": "\"New Window\"",
-                  "offset": 16
+                  "val": "\"Smith\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"John\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"jsmith@gmail.com\t\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"$50.00\t\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"http://www.jsmith.com\t\"",
+                  "offset": 71
                 }
               ],
-              "location": "stepDefinations.HeroKUAppStepDefinations.verify_the_Text_at_Child_Window(java.lang.String)"
+              "location": "stepDefinations.HeroKUAppStepDefinations.verify_the_a_row_with_exists_on_the_table(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
             },
             "keyword": "And "
-          },
+          }
+        ],
+        "tags": [
           {
-            "result": {
-              "duration": 74006800,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "Switch to Main window and Verify \"Opening a new window\" Text",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Opening a new window\"",
-                  "offset": 33
-                }
-              ],
-              "location": "stepDefinations.HeroKUAppStepDefinations.switch_to_Main_window_and_Verify_Text(java.lang.String)"
-            },
-            "keyword": "And "
+            "name": "@latest"
           }
         ]
       }

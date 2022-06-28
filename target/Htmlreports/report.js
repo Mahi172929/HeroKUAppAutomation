@@ -33,12 +33,17 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Verify the child window text and Parent winow text",
+  "name": "Verify Data table functionality",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@latest"
+    }
+  ]
 });
 formatter.step({
-  "name": "User navigate to \"Multiple Windows\" Page",
+  "name": "User navigate to \"Sortable Data Tables\" Page",
   "keyword": "Given "
 });
 formatter.match({
@@ -48,41 +53,31 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Click on \"Click Here\"",
+  "name": "user is able to see the \"Data Tables\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepDefinations.HeroKUAppStepDefinations.click_on_Click_Here(java.lang.String)"
+  "location": "stepDefinations.HeroKUAppStepDefinations.user_is_able_to_see_the_data_table(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "New Child window opened",
+  "name": "Verify the data table functionalities",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepDefinations.HeroKUAppStepDefinations.new_Child_window_opened()"
+  "location": "stepDefinations.HeroKUAppStepDefinations.verify_the_data_table_functionalities()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Verify the Text \"New Window\" at Child Window",
+  "name": "Verify the a row with \"Smith\" , \"John\", \"jsmith@gmail.com\t\",\"$50.00\t\", \"http://www.jsmith.com\t\" exists on the table",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepDefinations.HeroKUAppStepDefinations.verify_the_Text_at_Child_Window(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Switch to Main window and Verify \"Opening a new window\" Text",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepDefinations.HeroKUAppStepDefinations.switch_to_Main_window_and_Verify_Text(java.lang.String)"
+  "location": "stepDefinations.HeroKUAppStepDefinations.verify_the_a_row_with_exists_on_the_table(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
 });
 formatter.result({
   "status": "passed"

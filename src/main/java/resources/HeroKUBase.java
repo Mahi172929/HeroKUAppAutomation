@@ -33,7 +33,7 @@ public class HeroKUBase {
 			
 		}
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		return driver;
 		
 	}
