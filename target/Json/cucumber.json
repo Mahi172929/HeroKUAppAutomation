@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6617938600,
+              "duration": 10554428000,
               "status": "passed"
             },
             "line": 3,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 82012100,
+              "duration": 55929400,
               "status": "passed"
             },
             "line": 4,
@@ -42,11 +42,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-28T18:35:50.908Z",
+        "start_timestamp": "2022-07-13T19:02:32.548Z",
         "before": [
           {
             "result": {
-              "duration": 2000700,
+              "duration": 984700,
               "status": "passed"
             },
             "match": {
@@ -61,7 +61,7 @@
         "after": [
           {
             "result": {
-              "duration": 361559100,
+              "duration": 351757900,
               "status": "passed"
             },
             "match": {
@@ -74,7 +74,7 @@
         "steps": [
           {
             "result": {
-              "duration": 626302800,
+              "duration": 667198100,
               "status": "passed"
             },
             "line": 18,
@@ -92,7 +92,7 @@
           },
           {
             "result": {
-              "duration": 48012600,
+              "duration": 23104700,
               "status": "passed"
             },
             "line": 19,
@@ -110,7 +110,7 @@
           },
           {
             "result": {
-              "duration": 204924700,
+              "duration": 132770100,
               "status": "passed"
             },
             "line": 20,
@@ -122,11 +122,11 @@
           },
           {
             "result": {
-              "duration": 991966100,
+              "duration": 533416300,
               "status": "passed"
             },
             "line": 21,
-            "name": "Verify the a row with \"Smith\" , \"John\", \"jsmith@gmail.com\t\",\"$50.00\t\", \"http://www.jsmith.com\t\" exists on the table",
+            "name": "Verify the a row with \"Smith\" , \"John\", \"jsmith@gmail.com\",\"$50.00\", \"http://www.jsmith.com\" exists on the table",
             "match": {
               "arguments": [
                 {
@@ -138,16 +138,16 @@
                   "offset": 32
                 },
                 {
-                  "val": "\"jsmith@gmail.com\t\"",
+                  "val": "\"jsmith@gmail.com\"",
                   "offset": 40
                 },
                 {
-                  "val": "\"$50.00\t\"",
-                  "offset": 60
+                  "val": "\"$50.00\"",
+                  "offset": 59
                 },
                 {
-                  "val": "\"http://www.jsmith.com\t\"",
-                  "offset": 71
+                  "val": "\"http://www.jsmith.com\"",
+                  "offset": 69
                 }
               ],
               "location": "stepDefinations.HeroKUAppStepDefinations.verify_the_a_row_with_exists_on_the_table(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"

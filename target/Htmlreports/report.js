@@ -73,7 +73,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Verify the a row with \"Smith\" , \"John\", \"jsmith@gmail.com\t\",\"$50.00\t\", \"http://www.jsmith.com\t\" exists on the table",
+  "name": "Verify the a row with \"Smith\" , \"John\", \"jsmith@gmail.com\",\"$50.00\", \"http://www.jsmith.com\" exists on the table",
   "keyword": "And "
 });
 formatter.match({

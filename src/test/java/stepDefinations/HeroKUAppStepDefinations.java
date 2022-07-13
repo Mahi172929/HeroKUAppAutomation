@@ -19,6 +19,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import junit.framework.Assert;
 import resources.HeroKUBase;
 
 
@@ -159,18 +160,28 @@ public class HeroKUAppStepDefinations extends HeroKUBase {
 				}
 			}
 		}
+		if(k!=0) {
 		for(int i=0;i<colcount;i++) {
-			rows_table.add(hw.getTableRowsatIndex(k).get(i).getText());		
+			rows_table.add(hw.getTableRowsatIndex(k).get(i).getText().trim());		
 			
+			}
 		}
+		else {
+			for(int i=0;i<colcount;i++) {
+				rows_table.add("Dummytext");		
+				
+				}
+		}
+		
 		String [] actual= {string,string2,string3,string4,string5};
 		
 		rows_table.forEach((s)->System.out.println(s));
 		for(int i=0;i<actual.length;i++) {
-			rows_table.get(i).equalsIgnoreCase(actual[i]);				
+			//rows_table.get(i).equalsIgnoreCase(actual[i]);	
+			org.junit.Assert.assertEquals(actual[i],rows_table.get(i));
 			
-		}
+			}
+		
 		
 	}
-
 }

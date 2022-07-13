@@ -18,4 +18,4 @@ Scenario: Verify Data table functionality
 		Given User navigate to "Sortable Data Tables" Page
 		When user is able to see the "Data Tables"
 		Then Verify the data table functionalities 
-		And Verify the a row with "Smith" , "John", "jsmith@gmail.com	","$50.00	", "http://www.jsmith.com	" exists on the table
+		And Verify the a row with "Smith" , "John", "jsmith@gmail.com","$50.00", "http://www.jsmith.com" exists on the table
